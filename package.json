@@ -1,0 +1,20 @@
+{
+  "name": "pets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "latest",
+    "fastify": "^3.9.1",
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.20",
+    "mysql": "^2.18.1",
+    "standard-error": "^1.1.0"
+  }
+}
