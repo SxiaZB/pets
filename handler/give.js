@@ -39,6 +39,7 @@ module.exports.getRelationship = function (req, res) {
       r.adoption = {
         sex: data[0].sex,
         isVaccine: data[0].isVaccine,
+        name: data[0].name,
         isEP: data[0].isEP,
         isNeuter: data[0].isNeuter,
         describe: data[0].describe,
